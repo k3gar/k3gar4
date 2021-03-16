@@ -1,0 +1,33 @@
+body{
+    background-color: #03506f;
+    font-family: sans-serif;
+}
+
+.main-nav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #a3ddcb;
+}
+
+.main-nav__item{
+    display: block;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    float: left;
+    color: #0a043c;
+}
+
+.main-nav__item:hover{
+    background-color: #0a043c;
+    color: #ffe3de;
+}
+
+.first-main a{
+    text-decoration:underline;
+    overflow: hidden;
+    color: #ffe3de;
+}
