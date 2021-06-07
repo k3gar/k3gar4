@@ -73,6 +73,14 @@ body{
     border: 6px solid var(--primary-dark-color);
     border-radius: 50%;
 }
+.profile-border {
+    min-width: 150px;
+    width: 200px;
+    height: 200px;
+    min-height: 150px;
+    border: 6px solid linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-radius: 50%;
+}
 
 main .introduction {
     text-align: center;
@@ -160,5 +168,6 @@ main .introduction h1 {
     }
     .introduction p {
         font-size: 1.5rem;
+        border-image-
     }
 }
