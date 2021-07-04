@@ -1,6 +1,11 @@
 @import "./globales.scss";
 @import "./header.scss";
 
+@media (min-width: 420px) {
+  .logo{
+    margin: 0 15px 0 35px;
+  }
+}
 @media (min-width: 634px) {
   .main-nav {
     margin: 0 auto;
