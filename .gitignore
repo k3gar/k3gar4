@@ -1,0 +1,5 @@
+#Ignoring prepros config
+prepros.config
+
+#Ignoring vscode files
+.vscode

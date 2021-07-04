@@ -1,22 +1,24 @@
 :root {
-/* Paleta de colores */
-  --primary-soft-color: #b3bde0;
-  --secondary-soft-color: #051557;
-  --primary-dark-color: #0a2d9e;
-  --secondary-dark-color: #56597f;
-  --black: #05001e;
-/* Fonts */
-  --primary-font: 'Quicksand';
-  --secondary-font: 'Raleway';
+  /* Paleta de colores */
+  --primary-soft-color:#b3bde0;
+  --secondary-soft-color:#051557;
+  --primary-dark-color:#0a2d9e;
+  --secondary-dark-color:#56597f;
+  --black:#05001e;
+  /* Fonts */
+  --primary-font:"Quicksand";
+  --secondary-font:"Raleway";
 }
+
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: var(--primary-font), sans-serif;
   color: var(--primary-soft-color);
 }
+
 .logo {
   background-image: url("https://image.flaticon.com/icons/png/512/1674/1674294.png");
   background-size: contain;
@@ -28,27 +30,41 @@
   float: left;
   margin: 0 15px 0 35px;
 }
+
+.logo {
+  background-image: url("https://image.flaticon.com/icons/png/512/1674/1674294.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0 15px 0 35px;
+}
+
 .main-nav {
   padding: 0px;
   background-color: var(--black);
   margin: 0 auto;
 }
+
 .main-nav--options {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   cursor: pointer;
 }
+
 .main-nav__item {
   text-align: center;
+  padding: 15px 16px;
 }
 .main-nav__item a {
-  display: block;
-  padding: 15px 16px;
   text-decoration: none;
   color: var(--primary-soft-color);
 }
@@ -56,6 +72,7 @@
   background-color: var(--primary-dark-color);
   color: #ffe3de;
 }
+
 @media (min-width: 634px) {
   .main-nav {
     margin: 0 auto;
@@ -72,22 +89,24 @@ main {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 50px 0 0 0;
   height: 100%;
 }
+
 h1 {
   font-family: var(--secondary-font);
   color: var(--secondary-soft-color);
   text-align: center;
 }
+
 .construction {
   background-image: url("../images/Under Constructions_Isometric.svg");
   background-size: cover;

@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font), sans-serif;
+  }
+  
+  .error {
+    background-image: url('https://image.flaticon.com/icons/png/512/3305/3305890.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+  }

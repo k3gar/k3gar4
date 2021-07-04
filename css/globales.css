@@ -1,18 +1,32 @@
 :root {
-/* Paleta de colores */
-  --primary-soft-color: #6e8a9b;
-  --secondary-soft-color: #7c949d;
-  --primary-dark-color: #51636f;
-  --secondary-dark-color: #9fa5a8;
-  --black: #0c1219;
-/* Fonts */
-  --primary-font: 'Quicksand';
-  --secondary-font: 'Raleway';
+  /* Paleta de colores */
+  --primary-soft-color:#b3bde0;
+  --secondary-soft-color:#051557;
+  --primary-dark-color:#0a2d9e;
+  --secondary-dark-color:#56597f;
+  --black:#05001e;
+  /* Fonts */
+  --primary-font:"Quicksand";
+  --secondary-font:"Raleway";
 }
+
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: var(--primary-font), sans-serif;
+  color: var(--primary-soft-color);
+}
+
+.logo {
+  background-image: url("https://image.flaticon.com/icons/png/512/1674/1674294.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0 15px 0 35px;
 }
