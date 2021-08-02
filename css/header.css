@@ -7,11 +7,11 @@
   width: 50px;
   height: 50px;
   float: left;
-  margin: 0 15px 0 35px;
+  margin: 0 5px 0 8px;
 }
 
 .main-nav {
-  padding: 0px;
+  width: 100%;
   background-color: var(--black);
   margin: 0 auto;
 }
@@ -25,17 +25,23 @@
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-nav__item {
   text-align: center;
-  padding: 15px 16px;
 }
+
 .main-nav__item a {
   text-decoration: none;
-  color: var(--secondary-dark-color);
+  color: var(--primary-soft-color);
+  padding: 15px 8px;
 }
+
 .main-nav__item:hover {
   background-color: var(--primary-dark-color);
   color: #ffe3de;
+  padding: 15px 8px;
 }

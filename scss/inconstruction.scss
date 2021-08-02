@@ -2,6 +2,9 @@
 @import "./header.scss";
   
   @media (min-width: 634px) {
+    .logo {
+      margin: 0 15px 0 35px;
+  }
     .main-nav {
       margin: 0 auto;
       padding: 0px;

@@ -11,9 +11,11 @@
   }
   
   .main-nav {
-    padding: 0px;
+    width: 100%;
     background-color: var(--black);
     margin: 0 auto;
+    padding: 0px;
+    display: flex;
   }
   
   .main-nav--options {
@@ -25,19 +27,21 @@
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     cursor: pointer;
+    align-items: center;
   }
   
   .main-nav__item {
     text-align: center;
-    padding: 15px 16px;
   
     a {
       text-decoration: none;
       color: var(--primary-soft-color);
+      padding: 15px 8px;
     }
   
     &:hover {
       background-color: var(--primary-dark-color);
       color: #ffe3de;
+      padding: 15px 5px;
     }
   }

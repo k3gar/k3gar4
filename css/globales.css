@@ -6,8 +6,8 @@
   --secondary-dark-color:#56597f;
   --black:#05001e;
   /* Fonts */
-  --primary-font:"Quicksand";
-  --secondary-font:"Raleway";
+  --primary-font:'Quicksand';
+  --secondary-font:'Raleway';
 }
 
 * {
